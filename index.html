@@ -24,15 +24,15 @@
 				<div class="form">
 					<div class="form-option">
 						<label for="bill">Bill</label>
-						<input type="number" name="bill" id="bill" />
+						<input type="number" name="bill" id="bill" step="25" placeholder="Bill amount" min="0" />
 					</div>
 					<div class="form-option">
 						<label for="percent">Tip Percentage</label>
-						<input type="text" name="percent" id="percent" />
+						<input type="number" name="percent" id="percent" step="5" placeholder="Percent you want to tip" min="0" max="100" />
 					</div>
 					<div class="form-option">
 						<label for="people">Number of People</label>
-						<input type="text" name="people" id="people" />
+						<input type="number" name="people" id="people" placeholder="1" value="1" min="1"/>
 					</div>
 					<div class="form-option">
 						<button class="btn">Calculate Tip</button>
