@@ -5,7 +5,7 @@
 }
 
 body {
-   font-family: 'Inter', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 
 h5 {
@@ -47,7 +47,7 @@ input::placeholder {
 }
 
 .heading {
-   height: 20%;
+   margin-bottom: 1rem;
 }
 
 .content {
@@ -74,6 +74,7 @@ input::placeholder {
 
 .form-option {
    height: 33%;
+   margin: 0.25rem 0;
 }
 
 .btn {
@@ -96,10 +97,10 @@ input::placeholder {
    margin: 2rem 1rem;
 }
 
-.result .row {
-   margin-bottom: 0rem;
+.row {
    height: 33%;
    text-align: left;
+   margin: 0.25rem 0;
 }
 
 .box {
@@ -112,4 +113,51 @@ input::placeholder {
    border-radius: 0.3rem;
    box-shadow: none;
    font-size: 17px;
+}
+
+@media(max-width: 600px){
+
+   .content {
+      flex-direction: column;
+      height: 80%;
+   }
+
+   .heading{
+      margin: 1rem 0;
+      max-height: 10%;
+   }
+
+   #error {
+      font-size: 14px;
+      padding: 0.5rem;
+      height: 10%;
+      margin-bottom: 1rem;
+   }
+
+   .form {
+      width: 100%;
+      margin-bottom: 0;
+   }
+
+   .result {
+      width: 100%;
+      margin-top: 0;
+   }
+
+   .form-option {
+      margin: 0;
+      margin-bottom: 0.5rem;
+      height: max-content;
+   }
+
+   .row{
+      margin: 0;
+      height: max-content;
+   }
+
+   .btn {
+      margin: 0;
+      justify-self: center;
+      margin-bottom: 0.75rem;
+   }
 }
