@@ -46,7 +46,7 @@ input::placeholder {
 
 .container {
    width: 75%;
-   height: 100%;
+   height: 100vh;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -131,20 +131,21 @@ input::placeholder {
 
 @media(max-width: 600px){
 
+   .container {
+      height: 100%;
+   }
+
    .content {
       flex-direction: column;
-      /* height: 80%; */
    }
 
    .heading{
       margin: 2rem 0;
-      /* max-height: 10%; */
    }
 
    #error {
       font-size: 14px;
       padding: 0.5rem;
-      /* height: 10%; */
       margin: 0.5rem 0;
    }
 
