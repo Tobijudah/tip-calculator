@@ -22,6 +22,26 @@ let init = () => {
          showError('Percentage must be less than 100')
       }
 
+      else if (bill.value === 'e' || percent.value === 'e' || people.value === 'e'){
+         showError('e is not a number')
+      }
+
+      else if (bill.value === '' || percent.value === '' || people.value === ''){
+         showError('Please fill all fields appropriately')
+      }
+
+      else if (bill.value == 0){
+         showError('Bill cannot be 0')
+      }
+
+      else if (percent.value == 0){
+         showError('Percentage cannot be 0')
+      }
+
+      else if (people.value == 0){
+         showError('Number of people cannot be 0')
+      }
+
       else {
          showError('All values should be positive numbers only')
       }
