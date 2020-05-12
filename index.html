@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/css/styles.css" />
+		<title>Document</title>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<div class="form">
+				<div class="form-option">
+					<label for="bill">Bill</label>
+					<input type="number" name="bill" id="bill" />
+				</div>
+				<div class="form-option">
+					<label for="percent">Tip Percentage</label>
+					<input type="text" name="percent" id="percent" />
+				</div>
+				<div class="form-option">
+					<label for="people">Number of People</label>
+					<input type="text" name="people" id="people" />
+            </div>
+            <div class="form-option">
+               <button class="btn">Calculate Tip</button>
+            </div>
+			</div>
+
+			<div class="result">
+				<div class="row">
+					<p>Tip per person:</p>
+					<div class="box">
+						<h5 id="perPerson"></h5>
+					</div>
+				</div>
+				<div class="row">
+					<p>Total Tip:</p>
+					<div class="box">
+						<h5 id="totalTip"></h5>
+					</div>
+				</div>
+				<div class="row">
+					<p>Total Amount:</p>
+					<div class="box">
+						<h5 id="totalPrice"></h5>
+					</div>
+				</div>
+         </div>
+         
+      </div>
+   
+
+   <script src="assets/js/script.js"></script>
+   </body>
+   
+</html>
