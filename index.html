@@ -15,45 +15,53 @@
 
 		<div class="container">
 
-			<div class="form">
-				<div class="form-option">
-					<label for="bill">Bill</label>
-					<input type="number" name="bill" id="bill" />
-				</div>
-				<div class="form-option">
-					<label for="percent">Tip Percentage</label>
-					<input type="text" name="percent" id="percent" />
-				</div>
-				<div class="form-option">
-					<label for="people">Number of People</label>
-					<input type="text" name="people" id="people" />
-            </div>
-            <div class="form-option">
-               <button class="btn">Calculate Tip</button>
-            </div>
+			<div class="error-box">
+				<h5 id="error"></h5>
 			</div>
 
-			<div class="result">
-				<div class="row">
-					<p>Tip per person:</p>
-					<div class="box">
-						<h5 id="perPerson"></h5>
+			<div class="inner-container">
+
+				<div class="form">
+					<div class="form-option">
+						<label for="bill">Bill</label>
+						<input type="number" name="bill" id="bill" />
+					</div>
+					<div class="form-option">
+						<label for="percent">Tip Percentage</label>
+						<input type="text" name="percent" id="percent" />
+					</div>
+					<div class="form-option">
+						<label for="people">Number of People</label>
+						<input type="text" name="people" id="people" />
+					</div>
+					<div class="form-option">
+						<button class="btn">Calculate Tip</button>
 					</div>
 				</div>
-				<div class="row">
-					<p>Total Tip:</p>
-					<div class="box">
-						<h5 id="totalTip"></h5>
+	
+				<div class="result">
+					<div class="row">
+						<p>Tip per person:</p>
+						<div class="box">
+							<h5 id="perPerson"></h5>
+						</div>
+					</div>
+					<div class="row">
+						<p>Total Tip:</p>
+						<div class="box">
+							<h5 id="totalTip"></h5>
+						</div>
+					</div>
+					<div class="row">
+						<p>Total Amount:</p>
+						<div class="box">
+							<h5 id="totalPrice"></h5>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<p>Total Amount:</p>
-					<div class="box">
-						<h5 id="totalPrice"></h5>
-					</div>
-				</div>
-         </div>
-         
+				
+			</div>
+
       </div>
    
 
