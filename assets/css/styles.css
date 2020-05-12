@@ -40,29 +40,30 @@ input::placeholder {
    width: 75%;
    height: 100vh;
    margin: 0 auto;
-}
-
-.error-box {
-   height: 20%;
    display: flex;
    justify-content: center;
-   align-items: flex-end;
+   align-items: center;
+   flex-direction: column;
 }
 
-.error-box h5 {
+.heading {
+   height: 20%;
+}
+
+.content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+
+#error {
    display: none;
    color: #c72626;
    background: #ca2e2e73;
    padding: 0.5rem 1rem;
    border-radius: 0.3rem;
    text-align: center;
-}
-
-.inner-container {
-   height: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 
 .form{
@@ -78,8 +79,9 @@ input::placeholder {
 .btn {
 	cursor: pointer;
    display: inline-block;
-	height: 40px;
-	padding: 10px 20px;
+	height: 2.25rem;
+   padding: 10px 20px;
+   margin-top: 0.75rem;
 	border: 0;
 	border-radius: 0.3rem;
 	background: #232323;
