@@ -6,12 +6,20 @@
 
 body {
    font-family: 'Montserrat', sans-serif;
+   background: #141414;
+   color: #f4f4f4;
+}
+
+h2{
+   font-size: 3rem;
+   color: #009632;
 }
 
 h5 {
    font-size: 1.4rem;
    font-weight: 700;
    padding-top: 0.15rem;
+   color: #009632;
 }
 
 input {
@@ -38,7 +46,7 @@ input::placeholder {
 
 .container {
    width: 75%;
-   height: 100vh;
+   height: 100%;
    margin: 0 auto;
    display: flex;
    justify-content: center;
@@ -48,6 +56,7 @@ input::placeholder {
 
 .heading {
    margin-bottom: 1rem;
+   text-align: center;
 }
 
 .content {
@@ -59,8 +68,8 @@ input::placeholder {
 
 #error {
    display: none;
-   color: #c72626;
-   background: #ca2e2e73;
+   color: #f4f4f4;
+   background: #c519199d;
    padding: 0.5rem 1rem;
    border-radius: 0.3rem;
    text-align: center;
@@ -85,10 +94,15 @@ input::placeholder {
    margin-top: 0.75rem;
 	border: 0;
 	border-radius: 0.3rem;
-	background: #232323;
+	background: #009632;
 	color: white;
 	font-size: 15px;
-	text-align: center;
+   text-align: center;
+}
+
+.btn {
+   outline-offset: 0;
+   outline: 0;
 }
 
 .result {
@@ -109,7 +123,7 @@ input::placeholder {
    width: 100%;
    height: 2.25rem;
    border: 1px solid #232323;
-   background: #d7ecf87e;
+   background: #00412094;
    border-radius: 0.3rem;
    box-shadow: none;
    font-size: 17px;
@@ -119,24 +133,24 @@ input::placeholder {
 
    .content {
       flex-direction: column;
-      height: 80%;
+      /* height: 80%; */
    }
 
    .heading{
-      margin: 1rem 0;
-      max-height: 10%;
+      margin: 2rem 0;
+      /* max-height: 10%; */
    }
 
    #error {
       font-size: 14px;
       padding: 0.5rem;
-      height: 10%;
-      margin-bottom: 1rem;
+      /* height: 10%; */
+      margin: 0.5rem 0;
    }
 
    .form {
       width: 100%;
-      margin-bottom: 0;
+      margin: 0;
    }
 
    .result {
