@@ -55,7 +55,7 @@ input::placeholder {
 }
 
 .heading {
-   margin-bottom: 1rem;
+   margin: 1rem 0;
    text-align: center;
 }
 
@@ -129,6 +129,30 @@ input::placeholder {
    font-size: 17px;
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 3rem 0rem;
+}
+
+.footer .social {
+	padding-top: 15px;
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fa-lg {
+   color: #009632;
+}
+
+.fa-lg:hover {
+  color: #036434af;
+}
+
+
 @media(max-width: 600px){
 
    .container {
@@ -174,5 +198,9 @@ input::placeholder {
       margin: 0;
       justify-self: center;
       margin-bottom: 0.75rem;
+   }
+
+   .footer {
+      margin: 1rem 0;
    }
 }
