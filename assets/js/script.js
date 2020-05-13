@@ -1,11 +1,11 @@
 let bill = document.querySelector("#bill");
-let percent = document.querySelector("#percent");
-let people = document.querySelector("#people");
-let tipPerPerson = document.querySelector("#perPerson");
-let totalTip = document.querySelector("#totalTip");
-let totalPrice = document.querySelector("#totalPrice");
-let submit = document.querySelector('.btn');
-let errorMessage = document.querySelector('#error')
+    percent = document.querySelector("#percent");
+    people = document.querySelector("#people");
+    tipPerPerson = document.querySelector("#perPerson");
+    totalTip = document.querySelector("#totalTip");
+    totalPrice = document.querySelector("#totalPrice");
+    submit = document.querySelector('.btn');
+    errorMessage = document.querySelector('#error')
 
 
 let init = () => {
@@ -47,10 +47,6 @@ let init = () => {
       }
    })
 }
-
-
-
-
 
 let calcTotalTip = () => {
 
